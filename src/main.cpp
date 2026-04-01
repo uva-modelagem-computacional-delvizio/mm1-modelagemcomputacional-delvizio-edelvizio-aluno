@@ -36,7 +36,7 @@ struct Simulation {
 
     // =========================================================================
     // [Definir Listas e Variáveis] — PARÂMETROS DO MODELO (variáveis de controle)
-    double lambda;          // taxa de chegadas
+    double lambda;          // taxa de chegadas ok
     double mu;              // taxa de serviço
     long   N_target;        // número de clientes a completar (parada)
     unsigned int seed;      // semente do RNG
